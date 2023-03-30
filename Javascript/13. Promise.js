@@ -35,4 +35,3 @@ Promise.all([promise1(), promise2()]).then(
     function(values){
         console.log("완료",values);
     });
-    

@@ -1,0 +1,9 @@
+https://create-react-app.dev/docs/getting-started
+
+$npx create-react-app my-app
+$cd my-app
+$npm start
+
+npm: 라이브러리 모듈 패키지 매니저
+npx: npm을 실행하는 실행기, npx를 통해서 디렉토리 my-app 내에서create-react-app을 실행
+
