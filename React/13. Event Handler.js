@@ -12,7 +12,7 @@ function main(props){
             <p>{isClicked ? 'Clicked' : 'Not Clicked'}</p>
             <button onClick={handleClick}>Button</button>   {//버튼 클릭 시 handleClick함수 호출. setIsClicked를 사용하여 isClicked를 true로 바꿈
                                                             }
-            <button onClick={(event) => handleClick2(2, event)}>Button2</button>    {//2, event인자를 handleClick2로 넘김. 
+            <button onClick={(event) => handleClick2(2, event)}>Button2</button>    {//2, event인자를 handleClick2로 넘김. 기본적으로 onClick에 매개변수를 전달하기 위해서는 event 함수를 만들고 함수를 정의
                                                                                     }
         </div>
     )
