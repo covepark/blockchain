@@ -20,7 +20,7 @@ const StyledDeactivateButton = styled.button`
 `;
 
 function Activate() { //component기 떄문에 대문자로 시작
-    const {activate, active} =useWeb3React();
+    const {activate, active} = useWeb3React();
 
     const [activating, setActivating] = useState(false);
 

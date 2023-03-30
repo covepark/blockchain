@@ -16,3 +16,5 @@
 //- package.json은 우리가 설치한 파일들. 
 //- artifact 추후에 프론트엔드에서 접근할 수 있는 일종의 매개체 역할
 //- Lock.json -> lock.sol의 변환 하드햇을 통해 compile후 json형태로 나열할 수 있음
+
+//-$yarn hardhat node
