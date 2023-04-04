@@ -21,21 +21,20 @@ const BlockNumber = () => {
         if(!library) {
             return 
         }
+
         async function getBlockNumber(library) {
-        try {
-            const blockNumber = await library.getBlockNumber();
-
-            if(!stale) {
-                setBlockNumber(blockNumber);
-            }
-        } catch (error) {
-            console.error('error', error)
-
-            if(!stale) {
-                setBlockNumber(undefined);
+            try {
+                const blockNumber = await library.getBlockNumber();
+                if(!stale) {
+                    setBlockNumber(blockNumber);
+                }
+            } catch (error) {
+                console.error('error', error)
+                if(!stale) {
+                    setBlockNumber(undefined);
+                }
             }
         }
-    }
 
         getBlockNumber(library)
 

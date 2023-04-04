@@ -1,3 +1,5 @@
+//메타마스크와 Dapp 연동
+
 import { useWeb3React } from "@web3-react/core";
 import { useState } from "react";
 import { injected } from "../8. Utils/8-2. Connectors";
@@ -22,7 +24,7 @@ const StyledDeactivateButton = styled.button`
 function Activate() { //component기 떄문에 대문자로 시작
     const {activate, active} = useWeb3React();
 
-    const [activating, setActivating] = useState(false);
+    const [activating, setActivating] = useState(false); //activata하는 동안 시간이 걸리기 때문에 활성화 여부를 알 수 있는 state를 만든 것임.ㅈ
 
     function handleActive(event) {
         event.preventDefault(); //기본적으로 handleActive 함수로써 더블린(?) 이벤트를 막기 위해서 사용. 클릭이벤트를 받은 이후에 핸들엑티브 함수 안에서 대부분의 모듈을 실행하기 위해서는 preventDefault라는 함수를 호출해야함.
@@ -61,7 +63,6 @@ export function Connect() {
     if (context.error) {
         window.alert(context.error);
     }
-
 
     return (
         <div>

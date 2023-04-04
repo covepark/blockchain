@@ -9,7 +9,8 @@ import {getProvider} from './utils/provider';
 const root = ReactDom.createRoot(document, getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Web3ReactProvider getLibrary = {getProvider}> 
+        <Web3ReactProvider getLibrary = {getProvider}> {//context형태로 접근할 수 있음, 우리가 정의한 getProvider를 넣는다.
+        }
         <App />
         </Web3ReactProvider>
     </React.StrictMode>
