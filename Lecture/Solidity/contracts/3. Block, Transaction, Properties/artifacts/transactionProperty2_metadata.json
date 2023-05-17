@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "newCheckFunction",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newOrderList",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block, Transaction, Properties/TransactionProperty2.sol": "transactionProperty2"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block, Transaction, Properties/TransactionProperty2.sol": {
+			"keccak256": "0x07bd26c3dffca68c8ccd2db2ef0e24db6662a07ede68f6abb53f5921fa8481a9",
+			"urls": [
+				"bzz-raw://c850df333f63b4dfc861154038f05b251581042e8fafc9b05dbffc5171b730a3",
+				"dweb:/ipfs/QmSjxoUh9H5RpYhuEizGabcCVeDpPzB8qCnV1atR3qeoRU"
+			]
+		}
+	},
+	"version": 1
+}

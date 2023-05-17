@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "msg1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block, Transaction, Properties/TransactionProperty.sol": "transactionProperty"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block, Transaction, Properties/TransactionProperty.sol": {
+			"keccak256": "0xb1cf3c3bd45523e0ea16b20811f3f1d5805c9c348ea1314cdfe8dceec9903dd4",
+			"urls": [
+				"bzz-raw://be2794929c3b2c48d799076c336a47212134f5bcf7f3b93bfabca67f7da1252b",
+				"dweb:/ipfs/QmRGEyhCAHfwpGPv2uLfP2NXKQijnULSAcBz3CnVdH3WzX"
+			]
+		}
+	},
+	"version": 1
+}

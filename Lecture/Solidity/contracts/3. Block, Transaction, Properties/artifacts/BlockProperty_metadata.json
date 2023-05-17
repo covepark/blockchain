@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "generateRandom",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Block, Transaction, Properties/Blockproperty2.sol": "BlockProperty"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Block, Transaction, Properties/Blockproperty2.sol": {
+			"keccak256": "0x26f0470673d1db829db45c10904a201febaddb0cf531e739f294422209664dc7",
+			"urls": [
+				"bzz-raw://a52c1d44ac8b3f2169d4fe6b57f3948d2ba3ff3e4ec52224eb251f5ea702f2b9",
+				"dweb:/ipfs/QmSrKG8ygF3YnE5DsMt75k9WrUzHPvUhBJWQYobczEBCLQ"
+			]
+		}
+	},
+	"version": 1
+}
